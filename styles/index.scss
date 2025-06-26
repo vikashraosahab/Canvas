@@ -3,3 +3,16 @@
     padding:0px;
     box-sizing:border-box;
 }
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aqua;
+    position:relative;
+}
+home {
+    position: absolute;
+    top:50%;
+    left:50%;
+    .controls {
+        display:flex;
+    }
+}
